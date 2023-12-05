@@ -1,0 +1,22 @@
+.heading {
+    width: 100%;
+    font-size:22px;
+    font-family: Algerian;
+}
+.nameOfObjects {
+    color: rgb(65, 148, 220);
+}
+body {
+    background-color: rgb(190, 215, 193);
+}
+#camera, #result {
+    border: 2px dashed rgb(0, 136, 255);
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+#nomeObejto, #Precisao {
+    font-size: 22px;
+    color: rgb(212, 148, 21);
+}

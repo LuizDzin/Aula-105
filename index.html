@@ -1,0 +1,65 @@
+ 
+<html>
+  <head>
+    <title>Identificador de Imagens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+   
+  <div class="container">
+<center>
+  <h3 class="btn btn-danger heading">
+Identificador de Imagens
+  </h3>
+  <br><br>
+  <p style="font-size: 20px; font-weight: 700;">
+    O modelo foi treinado para identificar esses objetos
+  </p>
+  <br>
+  <strong class="nameOfObjects">
+     Cubo Mágico
+     <hr>
+     Controle
+     <hr>
+     Fita
+     <hr>
+  </strong>
+  <br>
+<label for="" class="btn btn-warning">
+  Visualização da Webcam
+</label>
+<br>
+<hr>
+<br>
+<button class="btn btn-info" onclick="takeSnapshot()">
+  Capturar Imagem  
+  </button>
+  <br><br>
+<div id="camera"></div>
+<br>
+<div id="result"></div>
+<br><br>
+<button class="btn btn-danger" onclick="check()">
+  Identificar Objeto
+</button>
+
+<p><span id="nomeObjeto"></span></p>
+<p><span id="Precisao"></span></p>
+</center>
+</div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
